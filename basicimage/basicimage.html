@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                padding:1vh;
+                color:#1b4965;
+            }
+            body {
+                background: #ef636c;
+            }
+            header h1 {
+                padding:2vh;
+                width:60%;
+                margin:1vh auto;
+                border-radius:12px;
+            }
+            nav {
+                background:#d9403e;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:#d9403e;
+                color:white;
+                padding:2vh;
+                min-height:15vh;
+            }
+            .container {
+                min-height:75vh;
+                width:80%;
+                margin:1vh auto;
+                background: #1d6138;
+            }
+            .jumbotron img {
+                width:100%;
+                height: auto;
+                display: block;
+                filter: brightness(80%) blur(0.25px);
+                border-radius: 12px;
+            }
+            .jumbotron {
+                position: relative;
+                width: 100%;
+                color:white;
+                text-align: center;
+            }
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                align-self: center;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                flex-direction: column;
+                border-radius: 12px;
+            }
+            .overlay h3 {
+                font-size: 3rem;
+                margin: 1rem;
+            }
+            .overlay p {
+                font-size: 1.5rem;
+            }
+
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: stretch;
+                gap: 2rem;
+                padding: 1rem;
+                background: #1d6138;
+                margin: 1vh auto;
+            }
+
+            .flex-item {
+                flex: 0 0 calc(100%/3 - 1.34rem);
+                margin: 1vh auto;
+                outline: 1px lightgrey solid;
+                box-shadow: 8px 8px 12px 0px rgba(0, 0, 0, 0.5);
+            }
+            .flex-item h3 {
+                padding: 2vh;
+                background: black;
+                color: white;
+            }
+            .flex-item p {
+                padding: 2vh;
+                line-height: 1.5rem;
+                background: white;
+            }
+
+            
+            .media img {
+                width: 100%;
+                display: block;
+            }
+            
+            
+            
+            
+        </style>
+        <title>Basic Image Gallery</title>
+    </head>
+    
+    <body>
+        <header>
+            &nbsp;
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        
+        <div class="container">
+            <div class="jumbotron">
+                <img src="images/imagegallery2.png" alt="#" title="jumbo images">
+                <div class="overlay">
+                    <h3>Basic Image Gallery</h3>
+                    <p>Aliya Hicks<br>
+                        Web 1, 2nd<br>
+                        11-24-20</p>
+                </div>
+    
+            </div>
+            <!-- Write Assignment code under here-->
+            <div class="flex-container">
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(1).png" alt="#">
+                    </div>
+                    <h3>Winter night</h3>
+                    <p>
+                        In the photo it is a beautiful winter. On that night it was snowing.  
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(2).png" alt="#">
+                    </div>
+                    <h3>Christmas tree</h3>
+                    <p>
+                        This photo is a close up of a christmas tree. On the tree there are red orniments.  
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(3).png" alt="#">
+                    </div>
+                    <h3>Snowman</h3>
+                    <p>
+                        In this photo there is a snowman. The snowman has a cute scarf.
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(4).png" alt="#">
+                    </div>
+                    <h3>Presents</h3>
+                    <p>
+                        In this photo there are 3 presents. The presents are red. 
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(5).png" alt="#">
+                    </div>
+                    <h3>Santa and the Moon</h3>
+                    <p>
+                        In this photo santa is on his sleigh with his raindeer. They're infront of the moon. 
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(6).png" alt="#">
+                    </div>
+                    <h3>Another christmas tree</h3>
+                    <p>
+                        In the photo there is a christmas tree. On it there are alot of ornimits.
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(7).png" alt="#">
+                    </div>
+                    <h3>Cookies</h3>
+                    <p>
+                        These are christmas cookies. They are shaped like stars. 
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(8).png" alt="#">
+                    </div>
+                    <h3>Santa Claus</h3>
+                    <p>
+                        There is a clay santa claus. He is infront of a gold background.
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(9).png" alt="#">
+                    </div>
+                    <h3>Santa Cat</h3>
+                    <p>
+                        There is a cat in the christmas spirit. It has a santa outfit on.
+                    </p>
+                </div><!-- end fle item-->
+
+                <div class="flex-item">
+                    <div class="media">
+                        <img src="images/placeholder5x3(10).png" alt="#">
+                    </div>
+                    <h3>ornimit</h3>
+                    <p>
+                        There is a red ornimit, Its on whitle lace.  
+                    </p>
+                </div><!-- end fle item-->
+
+                
+
+
+            
+
+            </div><!-- End flex container-->
+            
+            
+            
+            
+            
+            
+        </div><!-- End of container -->
+        <footer>
+            Placeholder
+            
+        </footer>
+
+    <!-- End of page code, but be sure to copy closing tags below-->
+    </body>
+</html>
